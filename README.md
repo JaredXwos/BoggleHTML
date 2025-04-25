@@ -1,7 +1,7 @@
 # BoggleHTML
-[Boggle](https://en.wikipedia.org/wiki/Boggle) is a word game played competitively internationally. It involves finding as many distinct words as possible on a grid of letter dice. The words must be formed of connected, non repeating dice. As this tool is primarily meant for boggle players participating in the NTU Interhalls Recreational Games, it follows that NTU Boggle Charter: A 3 minute game over a 4x4 board with points earned defined by charter, using the [CSW24](https://www.cocoscrabble.org/news/new-csw24-lexicon) dictionary, and the Q die face may be taken as a Q, or a Qu (not u).
+[Boggle](https://en.wikipedia.org/wiki/Boggle) is a word game played competitively internationally. It involves finding as many distinct words as possible on a grid of letter dice. The words must be formed of connected, non repeating dice. As this tool is primarily meant for boggle players participating in the NTU Interhalls Recreational Games, it follows the NTU Boggle Charter: A 3 minute game over a 4x4 board with points earned based off the charter, using the [CSW24](https://www.cocoscrabble.org/news/new-csw24-lexicon) dictionary. Additionally the Q die face may be taken as a Q, or a Qu (not u).
 
-To play, one just downloads this html page and opens it with any browser. You do not need an interconnection after you have downloaded the page.
+To play, just download [this html page](https://github.com/JaredXwos/BoggleHTML/releases/download/v1.0.0/Boggle.html) and open it with any browser. Once downloaded, it can be played offline.
 Alternatively, try it [here](https://jaredxwos.github.io/PlayBoggle/)
 
 Currently the UI breaks on iOS devices. An update to support iOS is slated in the near future.
