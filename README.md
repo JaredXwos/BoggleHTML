@@ -4,7 +4,7 @@
 To play, just download [this html page](https://github.com/JaredXwos/BoggleHTML/releases/download/v1.0.0/Boggle.html) and open it with any browser. Once downloaded, it can be played offline.
 Alternatively, try it [here](https://jaredxwos.github.io/PlayBoggle/)
 
-Currently the UI breaks on iOS devices. An update to support iOS is slated in the near future.
+The portrait mobile UI currently breaks on iOS devices. You have to play on landscape mode. Stronger iOS support is planned in future updates.
 
 # Game UI Preview
 ## Desktop UI
