@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title> Boggle </title>
 
-<!-- This HTML made was for Nanyang Technological University Hall 6 word games team, with strong support from the Visual Arts Society Alumni.  - Jih How -->
+<!-- This HTML made was for Nanyang Technological University Hall 6 word games team, with strong support from the Visual Arts Society Legacy group.  - Jih How -->
 
 <!-- All hard coded resources like the dictionary and images are found here. --><script>
 const lexicon = [
@@ -280967,7 +280967,7 @@ class Dice {
                     return true;
             }
             if(!word.includes('QU')) return false;
-            word.replace('QU','Q');
+            word = word.replace('QU','Q');
             for(let i = 0; i < 4; i++) for(let j = 0; j < 4; j++){
                 // console.log(Dice.iterativeSearch(word, i, j));
                 if(Dice.values[i*4+j] === word[0] && Dice.iterativeSearch(word, i, j))
@@ -281219,25 +281219,8 @@ document.getElementById("selector").children[0].addEventListener("keydown", func
     }
 });
 
-/* for (let i = 0; i < 16; i++) 
+for (let i = 0; i < 16; i++) 
     document.getElementById("board").children[i].children[0].textContent = "HTMLWORDTIMELMAO"[i];
-
-alert(`
-Press the start button to start. 
-Swipe the words you find that you think are valid. 
-Swipe in the reversed direction to undo. 
-Q can either be Qu or Q so pick one.
-You can also type into the box directly.
-
-Press the timer (once it has finished loading) to see your score.
-Press the timer again to replay.
-
-Swipe is not supported on desktop.
-
-Please report any bugs to the NTU Hall 6 Word Games Team.
-
-This application was developed with strong support from the Visual Arts Society Alumni.
-`); */
 
 </script>
 </html>
